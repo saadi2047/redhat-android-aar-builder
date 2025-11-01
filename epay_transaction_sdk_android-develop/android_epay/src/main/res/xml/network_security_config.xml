@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<network-security-config>
+
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">dev.epay.sbi</domain>
+        <trust-anchors>
+            <certificates src="@raw/dev_cert" />
+        </trust-anchors>
+    </domain-config>
+
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">sit.epay.sbi</domain>
+        <trust-anchors>
+            <certificates src="@raw/sit_cert" />
+        </trust-anchors>
+    </domain-config>
+
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">uat.epay.sbi</domain>
+        <trust-anchors>
+            <certificates src="@raw/uat_cert" />
+        </trust-anchors>
+    </domain-config>
+
+</network-security-config>

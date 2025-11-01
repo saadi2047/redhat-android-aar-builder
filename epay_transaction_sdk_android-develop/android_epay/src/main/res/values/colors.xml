@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="loader">#153CF2</color>
+    <color name="transaction_dialog_continue_txt_color">#FFFFFF</color>
+    <color name="transaction_dialog_cancel_txt_color">#000000</color>
+    <color name="black">#000000</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="status_bar_color">#FFFFFF</color>
+    <color name="transaction_dialog_text">#757575</color>
+    <color name="button_effect_color">#F5F5F5</color>
+    <color name="dialog_border_button_color">#e5e5e5</color>
+    <color name="default_theme_color">#4d4141</color>
+</resources>

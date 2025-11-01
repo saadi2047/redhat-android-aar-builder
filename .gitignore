@@ -1,0 +1,15 @@
+cat << 'EOF' > .gitignore
+# Ignore build and cache directories
+.gradle/
+*/build/
+gradle-cache/
+dist/
+*.aar
+*.apk
+*.zip
+*.tar
+*.iml
+.idea/
+.DS_Store
+EOF
+

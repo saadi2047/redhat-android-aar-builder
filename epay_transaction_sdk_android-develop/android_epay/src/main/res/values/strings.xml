@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="no_upi_apps_found">No upi apps found.</string>
+    <string name="upi_app_not_installed">UPI app not installed.</string>
+
+    <string name="OK">OK</string>
+    <string name="alert_dialog_cancelled_message">Your transaction is in progress. Are you sure you want to go back?</string>
+    <string name="alert_dialog_cancelled_title">Transaction in Progress</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="btntxt_continue">Continue</string>
+    <string name="btntxt_cancel">Cancel</string>
+    <string name="transaction_is_already_in_progress">Transaction is already in progress. Are you sure you want to cancel?</string>
+    <string name="en">en</string>
+    <string name="cancelled">Cancelled</string>
+
+
+</resources>

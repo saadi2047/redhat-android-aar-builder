@@ -1,0 +1,4 @@
+include:
+  - project: 'epay/devops/ci-templates'
+    ref: main
+    file: 'templates/mobile/android.yml'

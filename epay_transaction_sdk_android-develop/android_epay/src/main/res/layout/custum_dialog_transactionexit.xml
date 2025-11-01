@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/are_you_sure"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/transaction_is_already_in_progress"
+        android:textColor="@color/transaction_dialog_text"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_continue_bg"
+        android:elevation="0dp"
+        android:text="@string/btntxt_continue"
+        android:textAllCaps="false"
+        android:textColor="@color/transaction_dialog_continue_txt_color"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_cancel_bg"
+        android:text="@string/btntxt_cancel"
+        android:elevation="0dp"
+        android:textAllCaps="false"
+        android:textColor="@color/transaction_dialog_cancel_txt_color"
+        android:textSize="11sp" />
+
+</LinearLayout>

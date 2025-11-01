@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SBIMerchantApp" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/status_bar_color</item>
+    </style>
+    <style name="Theme.SBIMerchantApp" parent="Base.Theme.SBIMerchantApp" />
+</resources>
